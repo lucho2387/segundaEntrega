@@ -1,0 +1,62 @@
+### ------PRODUCTO------- ###
+
+### Listar los Productos
+GET http://localhost:8080/api/productos
+
+### Buscar un Producto
+GET http://localhost:8080/api/productos/626a9b53c8709334e3a1bb16
+
+
+### Guardar un Producto
+POST http://localhost:8080/api/productos
+Content-Type: application/json
+
+{
+    "nombre": "Cámara de seguridad Ezviz",
+    "descripcion": "asdsadsda",
+    "codigo": "006",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_642833-MLA48771523175_012022-O.webp",
+    "precio": 12500,
+    "stock": 20
+    
+}
+
+### Actualizar un Producto
+PUT http://localhost:8080/api/productos/626a9b53c8709334e3a1bb16
+Content-Type: application/json
+
+ { 
+  /*"nombre": "Cámara de seguridad Ezviz",
+    "descripcion": "",
+    "codigo": "001",
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_642833-MLA48771523175_012022-O.webp",
+    "precio": 12500,*/
+    "stock": 20
+}
+
+### Eliminar un Producto
+DELETE http://localhost:8080/api/productos/626a9c78c8709334e3a1bb25
+
+
+
+### ------CARRITO------- ###
+
+
+### Listar los carritos con sus productos
+GET  http://localhost:8080/api/carrito
+
+### Buscar un Carrito
+GET http://localhost:8080/api/carrito/626aa04b9e9ca3883496c380
+
+### Guardar un Producto en el Carrito
+POST http://localhost:8080/api/carrito/626a9b85c8709334e3a1bb1e/productos
+
+### Guardar Productos en el Carrito (Ver)
+POST http://localhost:8080/api/carrito/626b1ada3870fb55ce306211/productos/626a9b53c8709334e3a1bb16
+
+### Eliminar Carrito
+DELETE http://localhost:8080/api/carrito/626aa1fb9770d41d8473f3a9
+
+### Eliminar Productos del Carrito
+DELETE http://localhost:8080/api/carrito/626b1ada3870fb55ce306211/productos/626a9b85c8709334e3a1bb1e
+

@@ -1,0 +1,74 @@
+### PRODUCTO
+
+### Listar los Productos
+GET  http://localhost:8080/api/productos
+
+### Buscar un Producto
+GET  http://localhost:8080/api/productos/3wlNREpAY5EPwd9rPR0o
+
+### Agregar un Producto
+POST http://localhost:8080/api/productos
+Content-Type: application/json
+
+{
+        "nombre": "Kit 5 Camaras Seguridad Ip Wifi Inalambrica",
+        "descripcion": "Nuevo diseño con Chipset Huawei V200. Calidad de Imagen HD Real 100% mejor que los modelos convencionales. P2P - Wifi (Antena integrada de 3dbi, compatible con redes 2.4ghz unicamente). Compatible con dispositivos Android / IOS (apple) / Windows Pc. Utiliza App Eye4 descargable desde Playstore o AppStore. Motorizada con movimiento lateral de 355° y Vertical de 90°. Zoom Digital 4x. Posiciones pre-seteables por App.",
+        "codigo": "006",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_809363-MLA31925822218_082019-O.webp",
+        "precio": 12999,
+        "stock": 20
+    }
+### Actualizar un Producto
+PUT http://localhost:8080/api/productos/3PP8wy5qElRog0QS8tag
+Content-Type: application/json
+
+{
+        "nombre": "Camaras Seguridad Inalambrica",
+        "descripcion": "Nuevo diseño con Chipset Huawei V200. Calidad de Imagen HD Real 100% mejor que los modelos convencionales. P2P - Wifi (Antena integrada de 3dbi, compatible con redes 2.4ghz unicamente). Compatible con dispositivos Android / IOS (apple) / Windows Pc. Utiliza App Eye4 descargable desde Playstore o AppStore. Motorizada con movimiento lateral de 355° y Vertical de 90°. Zoom Digital 4x. Posiciones pre-seteables por App.",
+        "codigo": "010",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_809363-MLA31925822218_082019-O.webp",
+        "precio": 5999,
+        "stock": 5
+    }
+
+
+### Eliminar un Productos
+DELETE   http://localhost:8080/api/productos/jxKa3vFkqWNEsYapgiot
+
+
+
+
+
+### CARRITO
+
+### Listar los Carritos
+GET  http://localhost:8080/api/carrito
+
+### Buscar un Carrito
+GET  http://localhost:8080/api/carrito/e11xsETUUAVOXdqN0ZfM
+
+### Agregar un Producto al Carrito
+# POST http://localhost:8080/api/carrito
+# Content-Type: application/json
+
+# {
+#     "nombre": "Kit Camaras",
+#     "descripcion": "Nuevo diseño con Chipset Huawei V200. Calidad de Imagen HD Real 100% mejor que los modelos convencionales. P2P - Wifi (Antena integrada de 3dbi, compatible con redes 2.4ghz unicamente). Compatible con dispositivos Android / IOS (apple) / Windows Pc. Utiliza App Eye4 descargable desde Playstore o AppStore. Motorizada con movimiento lateral de 355° y Vertical de 90°. Zoom Digital 4x. Posiciones pre-seteables por App.",
+#     "codigo": "010",
+#     "imagen": "https://http2.mlstatic.com/D_NQ_NP_809363-MLA31925822218_082019-O.webp",
+#     "precio": 12500,
+#     "stock": 10
+    
+# }
+
+### Agregar un Producto al Carrito
+POST http://localhost:8080/api/carrito/3PP8wy5qElRog0QS8tag/productos
+
+### Actualizar el Carrito
+PUT  http://localhost:8080/api/carrito/323xMBIy0mmZnaxGtNcp/productos/TCyfXN4Xxm5EHq7cvM1y
+
+### Eliminar un Carrito
+DELETE   http://localhost:8080/api/carrito/NVFgkZHGESswUBXGJoKR
+
+### Eliminar un Producto del Carrito
+DELETE   http://localhost:8080/api/carrito/5HQJWvO1KmJwJ4DPytXH/productos/HgPHSnbuerRoXV8lcNKE

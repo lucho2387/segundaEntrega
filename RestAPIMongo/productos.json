@@ -1,0 +1,47 @@
+[
+    
+    {
+        "nombre": "Cámara de seguridad Ezviz",
+        "descripcion": "Definición de la cámara: 2MP. Capacidad de almacenamiento de 256GB. Micrófono incluido. Incluye visión nocturna. Peso: 218g. Ideal para control y seguridad de hogares, oficinas y edificios.",
+        "codigo": "001",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_878234-MLA48771138882_012022-O.webp",
+        "precio": 5890,
+        "stock": 10
+        
+    },
+    {
+        "nombre": "Kit 2 Camaras Seguridad Ip Motorizado Wifi Vision Nocturna",
+        "descripcion": "Cámara SX9 P2P +IP + Wifi. Tipo Domo con movimiento lateral de 360 y Vertical de 120. Visión Nocturna 6 led. Resolución de video: 1080P (full HD). Memoria Expandible a 128GB",
+        "codigo": "002",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_815352-MLA49273211342_032022-O.webp",
+        "precio": 8549,
+        "stock": 5
+        
+    },
+    {
+        "nombre": "Cámara de seguridad Smart Tech N8-200W-IR",
+        "descripcion": "Definición de la cámara: 2MP. Capacidad de almacenamiento de 64GB. Micrófono incluido. Incluye visión nocturna. Ideal para control y seguridad de hogares, oficinas y edificios.",
+        "codigo": "003",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_707195-MLA48859066326_012022-O.webp",
+        "precio": 8499,
+        "stock": 10
+        
+    },
+    {
+        "nombre": "Cámara de seguridad Ezviz",
+        "descripcion": "Definición de la cámara: 2MP. Capacidad de almacenamiento de 128GB. Micrófono incluido. Incluye visión nocturna. Peso: 505g. Ideal para control y seguridad de hogares, oficinas y edificios",
+        "codigo": "004",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_753785-MLA48766097641_012022-O.webp",
+        "precio": 7999,
+        "stock": 8
+        
+    },
+    {
+        "nombre": "Kit 2 Camaras Seguridad Ip Wifi Inalambrica",
+        "descripcion": "Nuevo diseño con Chipset Huawei V200. Calidad de Imagen HD Real 100% mejor que los modelos convencionales. P2P - Wifi (Antena integrada de 3dbi, compatible con redes 2.4ghz unicamente). Compatible con dispositivos Android / IOS (apple) / Windows Pc. Utiliza App Eye4 descargable desde Playstore o AppStore. Motorizada con movimiento lateral de 355° y Vertical de 90°. Zoom Digital 4x. Posiciones pre-seteables por App.",
+        "codigo": "005",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_809363-MLA31925822218_082019-O.webp",
+        "precio": 12999,
+        "stock": 20
+    }
+]
